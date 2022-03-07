@@ -5,7 +5,7 @@ import (
 	"go/ast"
 	"strings"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/zhuxubin01/bbrevive/lint"
 )
 
 // BannedCharsRule checks if a file contains banned characters.

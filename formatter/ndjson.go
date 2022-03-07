@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/zhuxubin01/bbrevive/lint"
 )
 
 // NDJSON is an implementation of the Formatter interface

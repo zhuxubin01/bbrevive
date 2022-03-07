@@ -5,7 +5,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/zhuxubin01/bbrevive/lint"
 )
 
 // Based on https://github.com/fzipp/gocyclo

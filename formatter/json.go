@@ -3,7 +3,7 @@ package formatter
 import (
 	"encoding/json"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/zhuxubin01/bbrevive/lint"
 )
 
 // JSON is an implementation of the Formatter interface

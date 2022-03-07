@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/zhuxubin01/bbrevive/lint"
 )
 
 func f0(param int) {

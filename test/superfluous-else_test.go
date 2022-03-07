@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/mgechev/revive/rule"
+	"github.com/zhuxubin01/bbrevive/rule"
 )
 
 // TestSuperfluousElse rule.

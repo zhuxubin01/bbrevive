@@ -11,10 +11,10 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/mgechev/dots"
-	"github.com/mgechev/revive/config"
-	"github.com/mgechev/revive/lint"
-	"github.com/mgechev/revive/logging"
 	"github.com/mitchellh/go-homedir"
+	"github.com/zhuxubin01/bbrevive/config"
+	"github.com/zhuxubin01/bbrevive/lint"
+	"github.com/zhuxubin01/bbrevive/logging"
 )
 
 var (

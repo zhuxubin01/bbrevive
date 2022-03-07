@@ -103,14 +103,14 @@ Here's how `revive` is different from `golint`:
 ## Installation
 
 ```bash
-go install github.com/mgechev/revive@latest
+go install github.com/zhuxubin01/bbrevive@latest
 ```
 
-or get a released executable from the [Releases](https://github.com/mgechev/revive/releases) page.
+or get a released executable from the [Releases](https://github.com/zhuxubin01/bbrevive/releases) page.
 
 You can install the main branch (including the last commit) with:
 ```bash
-go install github.com/mgechev/revive@master
+go install github.com/zhuxubin01/bbrevive@master
 ```
 
 ## Usage
@@ -194,7 +194,7 @@ Please notice that if no particular configuration is provided, `revive` will beh
 `revive` accepts the following command line parameters:
 
 - `-config [PATH]` - path to config file in TOML format, defaults to `$HOME/revive.toml` if present.
-- `-exclude [PATTERN]` - pattern for files/directories/packages to be excluded for linting. You can specify the files you want to exclude for linting either as package name (i.e. `github.com/mgechev/revive`), list them as individual files (i.e. `file.go`), directories (i.e. `./foo/...`), or any combination of the three.
+- `-exclude [PATTERN]` - pattern for files/directories/packages to be excluded for linting. You can specify the files you want to exclude for linting either as package name (i.e. `github.com/zhuxubin01/bbrevive`), list them as individual files (i.e. `file.go`), directories (i.e. `./foo/...`), or any combination of the three.
 - `-formatter [NAME]` - formatter to be used for the output. The currently available formatters are:
 
   - `default` - will output the failures the same way that `golint` does.
@@ -211,13 +211,13 @@ Please notice that if no particular configuration is provided, `revive` will beh
 ### Sample Invocations
 
 ```shell
-revive -config revive.toml -exclude file1.go -exclude file2.go -formatter friendly github.com/mgechev/revive package/...
+revive -config revive.toml -exclude file1.go -exclude file2.go -formatter friendly github.com/zhuxubin01/bbrevive package/...
 ```
 
 - The command above will use the configuration from `revive.toml`
 - `revive` will ignore `file1.go` and `file2.go`
 - The output will be formatted with the `friendly` formatter
-- The linter will analyze `github.com/mgechev/revive` and the files in `package`
+- The linter will analyze `github.com/zhuxubin01/bbrevive` and the files in `package`
 
 ### Comment Directives
 
@@ -357,18 +357,18 @@ enableAllRules = true
 The default configuration of `revive` can be found at `defaults.toml`. This will enable all rules available in `golint` and use their default configuration (i.e. the way they are hardcoded in `golint`).
 
 ```shell
-revive -config defaults.toml github.com/mgechev/revive
+revive -config defaults.toml github.com/zhuxubin01/bbrevive
 ```
 
-This will use the configuration file `defaults.toml`, the `default` formatter, and will run linting over the `github.com/mgechev/revive` package.
+This will use the configuration file `defaults.toml`, the `default` formatter, and will run linting over the `github.com/zhuxubin01/bbrevive` package.
 
 ### Custom Configuration
 
 ```shell
-revive -config config.toml -formatter friendly github.com/mgechev/revive
+revive -config config.toml -formatter friendly github.com/zhuxubin01/bbrevive
 ```
 
-This will use `config.toml`, the `friendly` formatter, and will run linting over the `github.com/mgechev/revive` package.
+This will use `config.toml`, the `friendly` formatter, and will run linting over the `github.com/zhuxubin01/bbrevive` package.
 
 ### Recommended Configuration
 

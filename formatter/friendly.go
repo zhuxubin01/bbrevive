@@ -6,7 +6,7 @@ import (
 	"sort"
 
 	"github.com/fatih/color"
-	"github.com/mgechev/revive/lint"
+	"github.com/zhuxubin01/bbrevive/lint"
 	"github.com/olekukonko/tablewriter"
 )
 

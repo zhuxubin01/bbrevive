@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/zhuxubin01/bbrevive/lint"
 	"github.com/pkg/errors"
 )
 

@@ -1,4 +1,4 @@
-module github.com/mgechev/revive
+module github.com/zhuxubin01/bbrevive
 
 go 1.12
 
